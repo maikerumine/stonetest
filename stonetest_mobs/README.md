@@ -1,5 +1,10 @@
 === MOBS-MOD for MINETEST-C55 ===
 by PilzAdam
+Changed by Andrey "Lag01"
+And Tweaked by maikerumine
+
+Notes:
+Can run mobs_redo with this mod, then redo api takes over.
 
 Inroduction:
 This mod adds some basic hostile and friendly mobs to the game.
