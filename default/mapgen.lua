@@ -990,7 +990,7 @@ function default.register_mgv6_decorations()
 		place_on = {"default:dirt_with_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
+			offset = 0,
 			scale = 0.0009,
 			spread = {x = 1100, y = 1100, z = 1100},
 			seed = 354,
@@ -1013,7 +1013,7 @@ function default.register_mgv6_decorations()
 		place_on = {"default:desert_sand", "default:stone", "default:desert_stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
+			offset = 0,
 			scale = 0.0009,
 			spread = {x = 11, y = 11, z = 11},
 			seed = 230,
@@ -1035,9 +1035,9 @@ function default.register_mgv6_decorations()
 			place_on = {"default:dirt_with_grass", "default:stone"},
 			sidelen = 80,
 			noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-				spread = {x = 11, y = 11, z = 11},
+			offset = 0,
+			scale = 0.00002,
+			spread = {x = 1, y = 1, z = 1},
 				seed = 329,
 				octaves = 3,
 				persist = 0.6
@@ -1055,9 +1055,9 @@ function default.register_mgv6_decorations()
 		place_on = {"default:desert_sand", "default:dirt_with_snow", "default:stone", "default:desert_stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 11, y = 11, z = 11},
+			offset = 0,
+			scale = 0.00002,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 329,
 			octaves = 3,
 			persist = 0.6
@@ -1076,9 +1076,9 @@ local function register_grass_decoration(offset, scale, length)
 		place_on = {"default:dirt_with_grass", "default:sand", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 12, y = 12, z = 12},
+			offset = 0,
+			scale = 0.00002,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 329,
 			octaves = 3,
 			persist = 0.6
@@ -1099,9 +1099,9 @@ local function register_dry_grass_decoration(offset, scale, length)
 		place_on = {"default:dirt_with_dry_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 12, y = 12, z = 12},
+			offset = 0,
+			scale = 0.00002,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 329,
 			octaves = 3,
 			persist = 0.6
@@ -1123,9 +1123,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.00005,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1142,9 +1142,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.0001,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1218,9 +1218,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_snow", "default:dirt_with_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.00005,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1237,9 +1237,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_snow", "default:dirt_with_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.0001,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1272,9 +1272,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_dry_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.00005,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1292,9 +1292,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_dry_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.0001,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1324,9 +1324,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.00005,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1343,9 +1343,9 @@ function default.register_decorations()
 		place_on = {"default:dirt_with_grass", "default:stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
-			spread = {x = 5, y = 5, z = 5},
+			offset = 0,
+			scale = 0.0001,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 2,
 			octaves = 3,
 			persist = 0.66
@@ -1377,8 +1377,8 @@ function default.register_decorations()
 		place_on = {"default:desert_sand", "default:stone", "default:desert_stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
+			offset = 0,
+			scale = 0.00009,
 			spread = {x = 1, y = 1, z = 1},
 			seed = 230,
 			octaves = 3,
@@ -1399,8 +1399,8 @@ function default.register_decorations()
 		place_on = {"default:desert_sand","default:stone", "default:desert_stone"},
 		sidelen = 80,
 		noise_params = {
-			offset = -0.0003,
-			scale = 0.0009,
+			offset = 0,
+			scale = 0.00009,
 			spread = {x = 12, y = 12, z = 12},
 			seed = 230,
 			octaves = 3,
@@ -1422,7 +1422,7 @@ function default.register_decorations()
 		sidelen = 80,
 		noise_params = {
 			offset = -0.3,
-			scale = 0.7,
+			scale = 0.007,
 			spread = {x = 12, y = 12, z = 12},
 			seed = 354,
 			octaves = 3,
@@ -1471,8 +1471,8 @@ function default.register_decorations()
 		sidelen = 80,
 		noise_params = {
 			offset = 0,
-			scale = 0.002,
-			spread = {x = 12, y = 12, z = 12},
+			scale = 0.00002,
+			spread = {x = 1, y = 1, z = 1},
 			seed = 329,
 			octaves = 3,
 			persist = 0.6
@@ -1493,7 +1493,7 @@ function default.register_decorations()
 		noise_params = {
 			offset = 0,
 			scale = 0.2,
-			spread = {x = 120, y = 120, z = 120},
+			spread = {x = 12, y = 12, z = 12},
 			seed = 329,
 			octaves = 3,
 			persist = 0.6
@@ -1511,7 +1511,7 @@ function default.register_decorations()
 		noise_params = {
 			offset = 0,
 			scale = 0.2,
-			spread = {x = 120, y = 120, z = 120},
+			spread = {x = 12, y = 12, z = 12},
 			seed = 329,
 			octaves = 3,
 			persist = 0.6
@@ -1529,7 +1529,7 @@ function default.register_decorations()
 		noise_params = {
 			offset = 0,
 			scale = 0.2,
-			spread = {x = 1200, y = 1200, z = 1200},
+			spread = {x = 12, y = 12, z = 12},
 			seed = 329,
 			octaves = 3,
 			persist = 0.6

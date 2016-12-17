@@ -9,6 +9,7 @@ stonetest_mobs.modpath = modpath
 --if mobs.mod and mobs.mod == "redo" then
 if mobs then
 	dofile(minetest.get_modpath("mobs").."/api.lua")
+	--dofile(minetest.get_modpath("mobs").."/flowerspawn.lua")
 	dofile(minetest.get_modpath("stonetest_mobs").."/init_redo.lua")
 	dofile(minetest.get_modpath("stonetest_mobs").."/mob_stone_monster.lua")
 	dofile(minetest.get_modpath("stonetest_mobs").."/mob_desert_stone_monster.lua")
